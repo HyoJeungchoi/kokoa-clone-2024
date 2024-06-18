@@ -1,0 +1,15 @@
+.more-screen .user-component__column {
+    color:rgba(0,0,0,0.9); 
+}
+
+.more-screen .icon-row {
+    margin: 50px 0px;
+}
+.more-sugeestions {
+    margin-top: 40px;
+    border-top: var(--main-border);
+    padding-top: 40px;
+}
+.more-sugeestions__title {
+    margin-bottom: 30px;
+}

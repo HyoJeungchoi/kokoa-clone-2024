@@ -89,3 +89,23 @@
     margin: 0px 7px;
     font-size: 13px;
 }
+
+@keyframes heartbeat {
+    0% {
+        color: white;
+        transform: none;
+    }
+    50% {
+        color: tomato;
+        transform: scale(2);
+    }
+    100% {
+        color: white;
+        transform: none;
+    }
+}
+
+.open-post__heart-count:hover i {
+    will-change: transform;
+    animation: heartbeat 0.5s linear infinite;
+}
